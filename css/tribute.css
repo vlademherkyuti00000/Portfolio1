@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(../image/crush.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 1100px;
+    width: 400px;
+    border-radius: 80px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .p{
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    background-image: url(../image/kath1.jpg);
+    background-size:inherit;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    background-color: #111;
+  }
+  
+  .sidebar a.active {
+    background-color: #4CAF50;
+  }
+  .sidebar-toggle {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }

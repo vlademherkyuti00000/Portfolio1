@@ -1,0 +1,71 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../image/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-image: url(../image/estetic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header {
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    height: 90px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .person {
+    margin: 10px;
+    text-align: center;
+    width: calc(50% - 20px);
+  }
+  
+  .person img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .person h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .person p {
+    margin: 5px;
+    font-size: 16px;
+  }
+  .email{
+    background-color: plum;
+    border-radius: 2%;
+    padding: 2%;
+    text-align: left;
+  }
+  .mail{
+    text-align: center;
+  }
+  .frenand{
+    object-fit: cover;
+  }
+  h1{
+    color: white;
+  }
+  

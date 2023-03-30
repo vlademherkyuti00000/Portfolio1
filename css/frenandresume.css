@@ -1,0 +1,49 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+.w3-row-padding img {margin-bottom: 0}
+.w3-sidebar {width: 120px;background: rgb(0, 0, 0);}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.w3-half{
+    border-radius: 30%;
+}
+.house{
+    color: white;
+}
+.wa{
+
+    background-color: gray;
+}
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    background-size:inherit;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    background-color: #111;
+  }
+  
+  .sidebar a.active {
+    background-color: #4CAF50;
+  }
+  .sidebar-toggle {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }

@@ -1,0 +1,93 @@
+body{
+    font-family: tahoma;
+    font-size: 20px;
+    background-color: black;
+    background-image: url(../image/wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vlad{
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+.vladz{
+    
+    width: 100%;
+    padding: 10%;
+    position: relative;
+    border-radius: 0;
+}
+.dalv{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: -10px;
+    border-radius: 60px;
+}
+.test{
+    position: relative;
+    top: -150px;
+    right: -80px;
+    color: white;
+    text-decoration: none;
+}
+.test:hover{
+    text-decoration: underline;
+}
+.test1{
+    position: relative;
+    top: -150px;
+    right: -280px;
+    color: white;
+    text-decoration: none;
+    
+}
+.test1:hover{
+    text-decoration: underline;
+}
+
+.fren{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 60px;
+    top: -200px;
+    
+}
+.test2{
+    position: relative;
+    top: -350px;
+    right: -100px;
+    color: white;
+    text-decoration: none;
+    
+}
+.test2:hover{
+    text-decoration: underline;
+}
+.test3{
+    position: relative;
+    top: -350px;
+    right: -310px;
+    color: white;
+    text-decoration: none;
+}
+.test3:hover{
+    text-decoration: underline;
+}
+.frens{
+    
+    width: 100%;
+    padding: 10%;
+    position: relative;
+    border-radius: 0;
+    left: -10px;
+}
+.home{
+    color: white;
+    text-decoration: none;
+}
+.home:hover{
+    text-decoration: underline;
+}
